@@ -1,0 +1,26 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "redbeanphp",
+                "version": "4.3",
+                "dist": {
+                    "url": "http://www.redbeanphp.com/RedBeanPHP4_3.tar.gz",
+                    "type": "tar"
+                }
+            }
+        }
+    ],
+    "require": {
+        "slim/slim": "3.*",
+        "redbeanphp": "4.*",
+        "guzzle/guzzle": "^3.9",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "": ""
+        }
+    }
+}
